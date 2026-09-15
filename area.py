@@ -6,6 +6,7 @@ class Area:
     self.nombre = nombre
     self.capacidad_base = capacidad_base
     self.sobrecargada = False
+    self.pendientes_inicio_turno = 0
 
     if nombre == "Recepción y Triaje":
       self.cola_alta = Queue()
